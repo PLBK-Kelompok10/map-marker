@@ -38,6 +38,36 @@ const markersB = [
     deskripsi: "Perkebunan kopi Arabika Gayo, salah satu kopi terbaik dunia"
   },
 
-  // === Tambah di sini setiap hari berikutnya ===
+  // === 26 April ===
+{
+  nama: "Pantai Sumur Tiga",
+  lat: 5.8881,
+  lng: 95.3162,
+  deskripsi: "Pantai dengan pasir putih dan air jernih di Sabang"
+},
+{
+  nama: "Air Terjun Pria Laot",
+  lat: 5.8395,
+  lng: 95.2290,
+  deskripsi: "Air terjun alami di tengah hutan Pulau Weh"
+},
+{
+  nama: "Pulau Rubiah",
+  lat: 5.8773,
+  lng: 95.2570,
+  deskripsi: "Pulau kecil terkenal dengan taman laut dan snorkeling"
+},
+{
+  nama: "Gunung Burni Telong",
+  lat: 4.7515,
+  lng: 96.8305,
+  deskripsi: "Gunung api aktif yang populer untuk pendakian di Aceh Tengah"
+},
+{
+  nama: "Desa Wisata Pantan Terong",
+  lat: 4.6945,
+  lng: 96.8322,
+  deskripsi: "Spot wisata dengan pemandangan Danau Laut Tawar dari ketinggian"
+},
 
 ];
