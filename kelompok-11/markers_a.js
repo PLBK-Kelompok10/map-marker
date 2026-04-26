@@ -2,7 +2,7 @@
 // Anggota : [Tasya Maulida]
 // Branch  : TasyaM
 // Wilayah : Aceh Utara & Aceh Timur
-// Commit  : 25 April 2025
+// Update  : 26 April 2026
 
 const markersA = [
 
@@ -38,6 +38,18 @@ const markersA = [
     deskripsi: "Kawasan ekowisata mangrove di Kota Langsa"
   },
 
-
+  // === 26 April ===
+  {
+    nama: "Gunung Salak Aceh Utara",
+    lat: 5.0500,
+    lng: 97.2000,
+    deskripsi: "Gunung yang berada di wilayah Aceh Utara"
+  },
+  {
+    nama: "Pantai Kuala Idi",
+    lat: 4.8000,
+    lng: 97.9000,
+    deskripsi: "Pantai yang terletak di Aceh Timur"
+  }
 
 ];
