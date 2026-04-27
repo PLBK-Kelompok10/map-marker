@@ -77,4 +77,40 @@ const markersAska = [
     deskripsi: "Pantai berpasir putih panjang di Aceh Besar, favorit wisatawan lokal"
   },
 
+  // === 27 April ===
+  {
+    nama: "Krueng Aceh",
+    lat: 5.5500,
+    lng: 95.3300,
+    deskripsi: "Sungai utama yang membelah Kota Banda Aceh"
+  },
+  
+  {
+    nama: "Taman Putroe Phang",
+    lat: 5.5540,
+    lng: 95.3188,
+    deskripsi: "Taman bersejarah peninggalan Sultanah Aceh di dekat Masjid Raya"
+  },
+
+  {
+    nama: "Kuburan Massal Tsunami Siron",
+    lat: 5.5289,
+    lng: 95.3897,
+    deskripsi: "Kuburan massal korban tsunami 2004 terbesar di Aceh Besar"
+  },
+
+  {
+    nama: "Pantai Kajhu",
+    lat: 5.5350,
+    lng: 95.3800,
+    deskripsi: "Pantai tenang di Aceh Besar, dekat dengan bandara Sultan Iskandar Muda"
+  },
+
+  {
+    nama: "Bandara Sultan Iskandar Muda",
+    lat: 5.5228,
+    lng: 95.4205,
+    deskripsi: "Bandar udara internasional utama di Provinsi Aceh"
+  },
+ 
 ];
