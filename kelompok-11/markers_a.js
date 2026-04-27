@@ -2,7 +2,7 @@
 // Anggota : [Tasya Maulida]
 // Branch  : TasyaM
 // Wilayah : Aceh Utara & Aceh Timur
-// Update  : 26 April 2026
+// Update  : 27 April 2026
 
 const markersA = [
 
@@ -50,6 +50,20 @@ const markersA = [
     lat: 4.8000,
     lng: 97.9000,
     deskripsi: "Pantai yang terletak di Aceh Timur"
+  },
+
+  // === 27 April ===
+  {
+    nama: "Pantai Bantayan",
+    lat: 5.1700,
+    lng: 97.1200,
+    deskripsi: "Pantai indah di wilayah Aceh Utara"
+  },
+  {
+    nama: "Kuala Simpang Ulim",
+    lat: 4.9500,
+    lng: 97.7500,
+    deskripsi: "Kawasan pesisir di Aceh Timur dengan aktivitas nelayan"
   }
 
 ];
