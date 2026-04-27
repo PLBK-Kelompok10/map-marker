@@ -70,4 +70,66 @@ const markersB = [
   deskripsi: "Spot wisata dengan pemandangan Danau Laut Tawar dari ketinggian"
 },
 
+// === 27 April ===
+{
+  nama: "Benteng Jepang Anoi Itam",
+  lat: 5.8895,
+  lng: 95.3035,
+  deskripsi: "Benteng peninggalan Jepang dengan panorama laut Sabang"
+},
+{
+  nama: "Pantai Anoi Itam",
+  lat: 5.8887,
+  lng: 95.3060,
+  deskripsi: "Pantai unik dengan pasir hitam vulkanik di Sabang"
+},
+{
+  nama: "Goa Sarang Sabang",
+  lat: 5.8665,
+  lng: 95.2245,
+  deskripsi: "Wisata alam berupa gua dan tebing dengan pemandangan laut biru"
+},
+{
+  nama: "Air Terjun Kembar Reje Ilang",
+  lat: 4.6605,
+  lng: 96.8402,
+  deskripsi: "Air terjun kembar dengan suasana sejuk di Aceh Tengah"
+},
+{
+  nama: "Bukit Singgah Mata",
+  lat: 4.6800,
+  lng: 96.8350,
+  deskripsi: "Tempat menikmati panorama Danau Laut Tawar dari ketinggian"
+},
+{
+  nama: "Masjid Ruhama Takengon",
+  lat: 4.6335,
+  lng: 96.8505,
+  deskripsi: "Masjid ikonik di pusat kota Takengon"
+},
+{
+  nama: "Pasar Inpres Takengon",
+  lat: 4.6325,
+  lng: 96.8480,
+  deskripsi: "Pusat aktivitas ekonomi masyarakat Takengon"
+},
+{
+  nama: "Dermaga Danau Laut Tawar",
+  lat: 4.6408,
+  lng: 96.8215,
+  deskripsi: "Tempat santai menikmati pemandangan danau"
+},
+{
+  nama: "PLTA Peusangan",
+  lat: 4.8700,
+  lng: 96.7500,
+  deskripsi: "Pembangkit listrik tenaga air di wilayah Aceh Tengah"
+},
+{
+  nama: "Bukit Pantan Terong Viewpoint",
+  lat: 4.6952,
+  lng: 96.8335,
+  deskripsi: "Spot terbaik melihat sunrise di Takengon"
+}
+
 ];

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Map Marker Kelompok</title>
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    /* FIX tambahan biar map pasti muncul */
+    html, body {
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+      <h2>📍 Daftar Lokasi</h2>
+      <input type="text" id="searchInput" placeholder="Cari lokasi...">
+      <ul id="locationList"></ul>
+    </div>
+
+    <!-- MAP -->
+    <div id="map"></div>
+
+  </div>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+  <!-- DATA MARKER (FIX PATH) -->
+  <script src="markers-b.js"></script>
+
+  <!-- SCRIPT (FIX PATH) -->
+  <script src="map.js"></script>
+
+</body>
+</html>
