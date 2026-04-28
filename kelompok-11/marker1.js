@@ -112,5 +112,37 @@ const markersAska = [
     lng: 95.4205,
     deskripsi: "Bandar udara internasional utama di Provinsi Aceh"
   },
+
+  // === 28 April ===
+  {
+    nama: "Meunasah Blang Oi",
+    lat: 5.5750,
+    lng: 95.3050,
+    deskripsi: "Meunasah bersejarah di kawasan Blang Oi, Banda Aceh"
+  },
+  {
+    nama: "Taman Rusa Aceh",
+    lat: 5.5600,
+    lng: 95.3900,
+    deskripsi: "Taman wisata dengan rusa jinak di Banda Aceh"
+  },
+  {
+    nama: "Pantai Deah Raya",
+    lat: 5.6050,
+    lng: 95.3200,
+    deskripsi: "Pantai alami di ujung utara Banda Aceh"
+  },
+  {
+    nama: "Makam Raja-Raja Aceh Kandang",
+    lat: 5.5480,
+    lng: 95.3100,
+    deskripsi: "Kompleks pemakaman raja-raja Kesultanan Aceh Darussalam"
+  },
+  {
+    nama: "Sungai Aceh Besar",
+    lat: 5.4800,
+    lng: 95.5000,
+    deskripsi: "Aliran sungai yang melintasi wilayah Aceh Besar"
+  },
  
 ];
