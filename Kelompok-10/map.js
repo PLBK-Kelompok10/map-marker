@@ -17,8 +17,8 @@ let markerObjects = [];
 // Gabung semua marker dari semua anggota + label warna
 const semuaMarker = [
   ...markersAska.map(m => ({ ...m, anggota: "Aska", warna: "#e74c3c" })),
-  ...markersTasyaM.map(m => ({ ...m, anggota: "Tasya Maulidda", warna: "#2980b9" })),
-  ...markersTasyaZ.map(m => ({ ...m, anggota: "Tasya Zahrani", warna: "#27ae60" })),
+  ...markersA.map(m => ({ ...m, anggota: "Tasya Maulidda", warna: "#2980b9" })),
+  ...markersB.map(m => ({ ...m, anggota: "Tasya Zahrani", warna: "#27ae60" })),
 ];
 
 // Fungsi buat ikon berwarna per anggota
