@@ -1,4 +1,4 @@
-# Map Marker — Kelompok 11
+# Map Marker — Kelompok 10
 
 Tugas kolaborasi Git — penggunaan sistem kontrol versi dalam pengembangan perangkat lunak.
 
