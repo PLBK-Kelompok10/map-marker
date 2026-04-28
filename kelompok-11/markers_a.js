@@ -2,7 +2,7 @@
 // Anggota : [Tasya Maulida]
 // Branch  : TasyaM
 // Wilayah : Aceh Utara & Aceh Timur
-// Update  : 27 April 2026
+// Update  : 28 April 2026
 
 const markersA = [
 
@@ -64,6 +64,20 @@ const markersA = [
     lat: 4.9500,
     lng: 97.7500,
     deskripsi: "Kawasan pesisir di Aceh Timur dengan aktivitas nelayan"
+  },
+
+  // === 28 April ===
+  {
+    nama: "Pelabuhan Krueng Geukueh",
+    lat: 5.2300,
+    lng: 97.0500,
+    deskripsi: "Pelabuhan penting di Aceh Utara"
+  },
+  {
+    nama: "Pantai Pusong Lama",
+    lat: 5.1900,
+    lng: 97.1300,
+    deskripsi: "Pantai dekat pusat Kota Lhokseumawe"
   }
 
 ];
