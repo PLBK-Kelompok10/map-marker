@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Map Marker — Kelompok 11</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    html, body { height: 100%; }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+      <h2>📍 Daftar Lokasi</h2>
+      <input type="text" id="searchInput" placeholder="Cari lokasi atau nama anggota...">
+
+      <!-- Legend -->
+      <div style="margin-bottom:15px;font-size:13px;">
+        <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px;">
+          <div style="width:10px;height:10px;background:#e74c3c;border-radius:50%"></div> Aska
+        </div>
+        <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px;">
+          <div style="width:10px;height:10px;background:#2980b9;border-radius:50%"></div> Tasya Maulidda
+        </div>
+        <div style="display:flex;align-items:center;gap:8px;">
+          <div style="width:10px;height:10px;background:#27ae60;border-radius:50%"></div> Tasya Zahrani
+        </div>
+      </div>
+
+      <ul id="locationList"></ul>
+    </div>
+
+    <!-- MAP -->
+    <div id="map"></div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+  <!-- Marker semua anggota -->
+  <script src="marker1.js"></script>
+  <script src="markers_tasyam.js"></script>
+  <script src="markers_tasyaz.js"></script>
+
+  <!-- Script utama -->
+  <script src="map.js"></script>
+</body>
+</html>
