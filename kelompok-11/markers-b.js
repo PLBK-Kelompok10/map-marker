@@ -1,7 +1,7 @@
 // markers-b.js
 // Anggota : [Tasya Zahrani]
 // Branch  : TasyaZ/marker-feature
-// Wilayah : Sabang & Aceh Tengah
+// Wilayah : Sabang & Aceh Tengah dan Banda Aceh & Aceh Besar
 // Commit  : 25 April 2025
 
 const markersB = [
@@ -130,6 +130,92 @@ const markersB = [
   lat: 4.6952,
   lng: 96.8335,
   deskripsi: "Spot terbaik melihat sunrise di Takengon"
+},
+
+// === 28 April ===
+{
+  nama: "Masjid Raya Baiturrahman",
+  lat: 5.5483,
+  lng: 95.3238,
+  deskripsi: "Ikon Kota Banda Aceh dengan arsitektur megah dan sejarah tsunami"
+},
+{
+  nama: "Museum Tsunami Aceh",
+  lat: 5.5467,
+  lng: 95.3222,
+  deskripsi: "Museum edukatif untuk mengenang tragedi tsunami 2004"
+},
+{
+  nama: "PLTD Apung",
+  lat: 5.5486,
+  lng: 95.3206,
+  deskripsi: "Kapal pembangkit listrik yang terseret tsunami ke daratan"
+},
+{
+  nama: "Kapal di Atas Rumah (Lampulo)",
+  lat: 5.5570,
+  lng: 95.3150,
+  deskripsi: "Kapal yang tersangkut di rumah warga saat tsunami, menjadi simbol penyelamatan"
+},
+{
+  nama: "Taman Sari Gunongan",
+  lat: 5.5470,
+  lng: 95.3228,
+  deskripsi: "Bangunan bersejarah peninggalan Kesultanan Aceh"
+},
+{
+  nama: "Pantai Ulee Lheue",
+  lat: 5.5667,
+  lng: 95.2833,
+  deskripsi: "Pantai dekat pusat kota, cocok untuk menikmati sunset"
+},
+{
+  nama: "Pelabuhan Ulee Lheue",
+  lat: 5.5660,
+  lng: 95.2850,
+  deskripsi: "Pelabuhan utama penyeberangan ke Sabang"
+},
+{
+  nama: "Pantai Lampuuk",
+  lat: 5.5142,
+  lng: 95.2312,
+  deskripsi: "Pantai pasir putih dengan pemandangan indah"
+},
+{
+  nama: "Pantai Lhoknga",
+  lat: 5.4667,
+  lng: 95.2333,
+  deskripsi: "Pantai favorit untuk surfing dan sunset"
+},
+{
+  nama: "Pantai Leupung",
+  lat: 5.3833,
+  lng: 95.2500,
+  deskripsi: "Pantai alami dengan suasana tenang dan pegunungan di sekitarnya"
+},
+{
+  nama: "Air Terjun Suhom",
+  lat: 5.2985,
+  lng: 95.6250,
+  deskripsi: "Air terjun bertingkat dengan udara sejuk"
+},
+{
+  nama: "Bukit Lamreh",
+  lat: 5.6350,
+  lng: 95.5667,
+  deskripsi: "Bukit dengan panorama laut lepas yang indah"
+},
+{
+  nama: "Pantai Pasir Putih Lhok Mee",
+  lat: 5.4800,
+  lng: 95.5500,
+  deskripsi: "Pantai unik dengan pohon-pohon di dalam air"
+},
+{
+  nama: "Waduk Keuliling",
+  lat: 5.4500,
+  lng: 95.4500,
+  deskripsi: "Danau buatan yang cocok untuk bersantai dan menikmati alam"
 }
 
 ];
