@@ -1,111 +1,51 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Map Marker — Kelompok 11</title>
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+  <link rel="stylesheet" href="style.css">
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: sans-serif; }
-    #header {
-      background: #2c3e50;
-      color: white;
-      padding: 12px 20px;
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
-    #header h1 { font-size: 16px; font-weight: 600; }
-    #header span { font-size: 13px; opacity: 0.75; }
-    #map { width: 100%; height: calc(100vh - 48px); }
-    .legend {
-      background: white;
-      padding: 10px 14px;
-      border-radius: 6px;
-      box-shadow: 0 1px 5px rgba(0,0,0,0.2);
-      font-size: 13px;
-      line-height: 1.8;
-    }
-    .legend-title { font-weight: 600; margin-bottom: 6px; font-size: 13px; }
-    .legend-item { display: flex; align-items: center; gap: 8px; }
-    .legend-dot { width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0; }
+    html, body { height: 100%; }
   </style>
 </head>
 <body>
+  <div class="container">
 
-<div id="header">
-  <h1>Map Marker — Kelompok 11</h1>
-  <span id="total-marker">Loading...</span>
-</div>
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+      <h2>📍 Daftar Lokasi</h2>
+      <input type="text" id="searchInput" placeholder="Cari lokasi atau nama anggota...">
 
-<div id="map"></div>
-
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-
-
-<script src="marker1.js"></script>
-
-<script>
-  const map = L.map('map').setView([5.0, 96.5], 8);
-
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-    maxZoom: 19
-  }).addTo(map);
-
-  const warna = {
-    aska: '#e74c3c',
-    a: '#2980b9',
-    b: '#27ae60'
-  };
-
-  function buatIkon(warna) {
-    return L.divIcon({
-      className: '',
-      html: `<div style="
-        width:14px; height:14px;
-        background:${warna};
-        border:2px solid white;
-        border-radius:50%;
-        box-shadow:0 1px 4px rgba(0,0,0,0.4);
-      "></div>`,
-      iconSize: [14, 14],
-      iconAnchor: [7, 7]
-    });
-  }
-
-  function tambahMarkers(data, warnaDot, namaAnggota) {
-    data.forEach(function(item) {
-      L.marker([item.lat, item.lng], { icon: buatIkon(warnaDot) })
-        .addTo(map)
-        .bindPopup(`
-          <b>${item.nama}</b><br>
-          <span style="color:#666;font-size:12px">${item.deskripsi || ''}</span><br>
-          <span style="color:#999;font-size:11px">oleh: ${namaAnggota}</span><br>
-          <span style="color:#999;font-size:11px">${item.lat}, ${item.lng}</span>
-        `);
-    });
-  }
-
-  tambahMarkers(markersAska, warna.aska, 'Aska');
-
-  const total = markersAska.length;
-  document.getElementById('total-marker').textContent = total + ' lokasi';
-
-  const legend = L.control({ position: 'bottomright' });
-  legend.onAdd = function() {
-    const div = L.DomUtil.create('div', 'legend');
-    div.innerHTML = `
-      <div class="legend-title">Kontributor</div>
-      <div class="legend-item">
-        <div class="legend-dot" style="background:${warna.aska}"></div> Aska (${markersAska.length})
+      <!-- Legend -->
+      <div style="margin-bottom:15px;font-size:13px;">
+        <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px;">
+          <div style="width:10px;height:10px;background:#e74c3c;border-radius:50%"></div> Aska
+        </div>
+        <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px;">
+          <div style="width:10px;height:10px;background:#2980b9;border-radius:50%"></div> Tasya Maulidda
+        </div>
+        <div style="display:flex;align-items:center;gap:8px;">
+          <div style="width:10px;height:10px;background:#27ae60;border-radius:50%"></div> Tasya Zahrani
+        </div>
       </div>
-    `;
-    return div;
-  };
-  legend.addTo(map);
-</script>
 
+      <ul id="locationList"></ul>
+    </div>
+
+    <!-- MAP -->
+    <div id="map"></div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+  <!-- Marker semua anggota -->
+  <script src="marker1.js"></script>
+  <script src="markers_tasyam.js"></script>
+  <script src="markers_tasyaz.js"></script>
+
+  <!-- Script utama -->
+  <script src="map.js"></script>
 </body>
 </html>
